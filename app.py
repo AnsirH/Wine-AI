@@ -5,7 +5,7 @@ st.title("somelier AI")
 col1, col2 = st.columns([3, 1])
 with col1:
     uploaded_image = st.file_uploader("요리 이미지를 업로드 하세요", type=['jpg', 'jpeg', 'png'])
-    user_prompt = st.text_input("프롬프트를 입력하세요.", "이 요리에 어울리는 와인을 추천해주세요.")    
+    user_prompt = st.text_input("프롬프트를 입력하세요.", "예시) 이 요리에 어울리는 와인을 추천해주세요.")    
 
 with col2:
     if uploaded_image:
